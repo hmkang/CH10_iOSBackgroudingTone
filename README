@@ -3,3 +3,5 @@ LEARNING Core Audio
 Sample code for iOS Audio Session
 
 CH10_iOSBackgroundingTone
+
+it plays different tones in foreground and background mode.
