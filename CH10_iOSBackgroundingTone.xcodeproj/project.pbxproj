@@ -53,7 +53,6 @@
 		72EC6024156CBF5E00111DAB = {
 			isa = PBXGroup;
 			children = (
-				72EC604C156CD5D300111DAB /* AudioToolbox.framework */,
 				72EC6039156CBF5E00111DAB /* CH10_iOSBackgroundingTone */,
 				72EC6032156CBF5E00111DAB /* Frameworks */,
 				72EC6030156CBF5E00111DAB /* Products */,
@@ -71,6 +70,7 @@
 		72EC6032156CBF5E00111DAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72EC604C156CD5D300111DAB /* AudioToolbox.framework */,
 				72EC604A156CD4CE00111DAB /* CoreAudio.framework */,
 				72EC6033156CBF5E00111DAB /* UIKit.framework */,
 				72EC6035156CBF5E00111DAB /* Foundation.framework */,
