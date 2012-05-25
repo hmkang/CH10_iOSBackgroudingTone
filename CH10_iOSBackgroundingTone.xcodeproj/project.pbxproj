@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7202CE64156F5CD800C85D9B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7202CE63156F5CD800C85D9B /* README */; };
 		72EC6034156CBF5E00111DAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC6033156CBF5E00111DAB /* UIKit.framework */; };
 		72EC6036156CBF5E00111DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC6035156CBF5E00111DAB /* Foundation.framework */; };
 		72EC6038156CBF5E00111DAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC6037156CBF5E00111DAB /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7202CE63156F5CD800C85D9B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
 		72EC602F156CBF5E00111DAB /* CH10_iOSBackgroundingTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CH10_iOSBackgroundingTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EC6033156CBF5E00111DAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72EC6035156CBF5E00111DAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		72EC603A156CBF5E00111DAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7202CE63156F5CD800C85D9B /* README */,
 				72EC603B156CBF5E00111DAB /* CH10_iOSBackgroundingTone-Info.plist */,
 				72EC603C156CBF5E00111DAB /* InfoPlist.strings */,
 				72EC603F156CBF5E00111DAB /* main.m */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72EC603E156CBF5E00111DAB /* InfoPlist.strings in Resources */,
+				7202CE64156F5CD800C85D9B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				72EC6049156CBF5E00111DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
