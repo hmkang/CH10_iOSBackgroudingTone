@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface CH10_iOSBackgroundingToneAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic, assign) AudioQueueRef audioQueue;
+@property (nonatomic, assign) AudioStreamBasicDescription streamFormat;
+@property (nonatomic, assign) UInt32 bufferSize;
+@property (nonatomic, assign) double currentFrequency;
+@property (nonatomic, assign) double startingFrameCount;
+
+- (OSStatus) fillBuffer: (AudioQueueBufferRef) buffer;
 
 @end

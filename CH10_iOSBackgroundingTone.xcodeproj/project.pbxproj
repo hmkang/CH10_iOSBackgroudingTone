@@ -13,6 +13,8 @@
 		72EC603E156CBF5E00111DAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72EC603C156CBF5E00111DAB /* InfoPlist.strings */; };
 		72EC6040156CBF5E00111DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC603F156CBF5E00111DAB /* main.m */; };
 		72EC6044156CBF5E00111DAB /* CH10_iOSBackgroundingToneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC6043156CBF5E00111DAB /* CH10_iOSBackgroundingToneAppDelegate.m */; };
+		72EC604B156CD4CE00111DAB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC604A156CD4CE00111DAB /* CoreAudio.framework */; };
+		72EC604D156CD5D300111DAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC604C156CD5D300111DAB /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,14 @@
 		72EC6033156CBF5E00111DAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72EC6035156CBF5E00111DAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72EC6037156CBF5E00111DAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		72EC603B156CBF5E00111DAB /* CH10_iOSBackgroundingTone-Info.plist */ = {isa = PBXFileReference; path = "CH10_iOSBackgroundingTone-Info.plist"; sourceTree = "<group>"; };
+		72EC603B156CBF5E00111DAB /* CH10_iOSBackgroundingTone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CH10_iOSBackgroundingTone-Info.plist"; sourceTree = "<group>"; };
 		72EC603D156CBF5E00111DAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72EC603F156CBF5E00111DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		72EC6041156CBF5E00111DAB /* CH10_iOSBackgroundingTone-Prefix.pch */ = {isa = PBXFileReference; path = "CH10_iOSBackgroundingTone-Prefix.pch"; sourceTree = "<group>"; };
-		72EC6042156CBF5E00111DAB /* CH10_iOSBackgroundingToneAppDelegate.h */ = {isa = PBXFileReference; path = CH10_iOSBackgroundingToneAppDelegate.h; sourceTree = "<group>"; };
+		72EC6041156CBF5E00111DAB /* CH10_iOSBackgroundingTone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CH10_iOSBackgroundingTone-Prefix.pch"; sourceTree = "<group>"; };
+		72EC6042156CBF5E00111DAB /* CH10_iOSBackgroundingToneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CH10_iOSBackgroundingToneAppDelegate.h; sourceTree = "<group>"; };
 		72EC6043156CBF5E00111DAB /* CH10_iOSBackgroundingToneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CH10_iOSBackgroundingToneAppDelegate.m; sourceTree = "<group>"; };
+		72EC604A156CD4CE00111DAB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		72EC604C156CD5D300111DAB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72EC604D156CD5D300111DAB /* AudioToolbox.framework in Frameworks */,
+				72EC604B156CD4CE00111DAB /* CoreAudio.framework in Frameworks */,
 				72EC6034156CBF5E00111DAB /* UIKit.framework in Frameworks */,
 				72EC6036156CBF5E00111DAB /* Foundation.framework in Frameworks */,
 				72EC6038156CBF5E00111DAB /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +51,7 @@
 		72EC6024156CBF5E00111DAB = {
 			isa = PBXGroup;
 			children = (
+				72EC604C156CD5D300111DAB /* AudioToolbox.framework */,
 				72EC6039156CBF5E00111DAB /* CH10_iOSBackgroundingTone */,
 				72EC6032156CBF5E00111DAB /* Frameworks */,
 				72EC6030156CBF5E00111DAB /* Products */,
@@ -62,6 +69,7 @@
 		72EC6032156CBF5E00111DAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72EC604A156CD4CE00111DAB /* CoreAudio.framework */,
 				72EC6033156CBF5E00111DAB /* UIKit.framework */,
 				72EC6035156CBF5E00111DAB /* Foundation.framework */,
 				72EC6037156CBF5E00111DAB /* CoreGraphics.framework */,
